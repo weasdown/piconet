@@ -21,7 +21,7 @@ class Transmission:
 class EconetInterface:
     # Pin definitions
     data_pos: int   # +ve
-    ground: int
     clock_pos: int  # +ve
     data_neg: int   # -ve
     clock_neg: int  # -ve
+    ground: int = 3
